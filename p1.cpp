@@ -8,7 +8,7 @@ int main()
 {
     int n, m;
     cin >> n >> m;
-    vector<int> dist(n + 1, -2);
+    vector<int> dist(n + 1, -1);
     vector<vector<int>> graph(n + 1);
     queue<int> q;
     for (int i = 0; i < m; ++i)
